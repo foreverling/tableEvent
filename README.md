@@ -4,7 +4,7 @@ Plug-in based on the development of jQuery, can be achieved by dragging the form
 ##parameter
 
 parameter     | Optional value | description
--------- | ---
+---- | ---- | --------
 fix | true,false(default) | Whether to enable table header fixation
 resize | true(default),false | Whether to enable the drag column header to change the column width function
 tableClass    | string | The class of the table being manipulated
