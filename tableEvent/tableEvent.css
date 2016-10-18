@@ -1,0 +1,33 @@
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+table .resizeMove {
+    width: 8px;
+    display: block;
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
+    cursor: col-resize;
+    z-index: 99;
+}
+.copyWraper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    overflow: hidden;
+}
+.copyTable{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.sourceTable{
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: auto;
+}
